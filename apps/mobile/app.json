@@ -2,43 +2,8 @@
   "expo": {
     "name": "Soothe",
     "slug": "soothe-mobile",
-    "scheme": "soothe",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "plugins": [
-      "expo-router",
-      "expo-notifications",
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "Soothe needs access to your photos so you can attach images.",
-          "cameraPermission": "Soothe needs camera access so you can capture photos."
-        }
-      ],
-      [
-        "expo-av",
-        {
-          "microphonePermission": "Soothe needs microphone access so you can record voice notes."
-        }
-      ],
-      [
-        "expo-location",
-        {
-          "locationWhenInUsePermission": "Soothe needs your location to autofill event locations."
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "supabaseUrl": "",
-      "supabaseAnonKey": "",
-      "edgeBaseUrl": ""
-    }
+    "userInterfaceStyle": "light"
   }
 }

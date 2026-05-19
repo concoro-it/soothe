@@ -6,7 +6,10 @@
     "apps/*"
   ],
   "scripts": {
-    "typecheck": "npm run -w @soothe/mobile typecheck",
-    "lint": "npm run -w @soothe/mobile lint"
+    "start": "npm run -w @soothe/mobile start",
+    "android": "npm run -w @soothe/mobile android",
+    "ios": "npm run -w @soothe/mobile ios",
+    "web": "npm run -w @soothe/mobile web",
+    "typecheck": "npm run -w @soothe/mobile typecheck"
   }
 }
