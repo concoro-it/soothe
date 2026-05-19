@@ -1,0 +1,40 @@
+{
+  "run_id": "uuid",
+  "idempotency_key": "opaque-unique-string",
+  "status": "succeeded",
+  "error_code": null,
+  "error_message": null,
+  "candidates": [
+    {
+      "candidate_type": "event",
+      "confidence": 0.93,
+      "payload_jsonb": {
+        "title": "Science Museum Field Trip",
+        "starts_at": "2026-05-12T09:00:00Z",
+        "linked_child_id": null
+      }
+    },
+    {
+      "candidate_type": "payment",
+      "confidence": 0.88,
+      "payload_jsonb": {
+        "title": "Bus fee for museum trip",
+        "category": "transport",
+        "amount_minor": 1500,
+        "currency": "EUR",
+        "due_date": "2026-05-05"
+      }
+    }
+  ],
+  "memory_nodes": [
+    {
+      "source_type": "content",
+      "source_id": "content_item_uuid",
+      "text_for_search": "School note mentions museum trip on May 12 and bus fee of 15 euros",
+      "metadata_jsonb": {
+        "chunk": 1,
+        "origin": "ocr"
+      }
+    }
+  ]
+}

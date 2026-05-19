@@ -1,0 +1,12 @@
+{
+  "name": "soothe",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "typecheck": "npm run -w @soothe/mobile typecheck",
+    "lint": "npm run -w @soothe/mobile lint"
+  }
+}

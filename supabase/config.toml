@@ -1,0 +1,28 @@
+project_id = "YOUR_PROJECT_REF"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[functions.start-extraction]
+verify_jwt = true
+
+[functions.ingest-extraction-result]
+verify_jwt = false
+
+[functions.confirm-extracted-items]
+verify_jwt = true
+
+[functions.family-search]
+verify_jwt = true
+
+[functions.notification-dispatch]
+verify_jwt = false

@@ -1,0 +1,8 @@
+{
+  "run_id": "uuid",
+  "family_id": "uuid",
+  "content_item_id": "uuid",
+  "requested_by_user_id": "uuid",
+  "callback_url": "https://<project>.functions.supabase.co/ingest-extraction-result",
+  "callback_secret": "server-generated-secret"
+}
